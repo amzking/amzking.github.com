@@ -1,6 +1,6 @@
 div#top {widht:750; height:50; text-align:center;}
 div#jibenxinxi {width:750px;}
-div#left{background-color:#8470FF;width:200px; height:100%; float:left;}
+div#left{background-color:#8470FF;width:200px; height:auto; margin:0 auto; float:left;}
 div#right{background-color:#B0E0E6;width:550px; height:auto; float:left;}
 
 div#gongzuojingli {width:750px;}
