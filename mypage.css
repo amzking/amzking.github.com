@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    width:100%;
+    margin:auto;
+}
+.separater{
+    color:rgba(230,90,55,1);
+    border-bottom: 0px  solid;
+}
+
+
+#head, #foot{
+    width:100%;
+    height:60px;
+    background:rgba(60,60,60,0.8)
+}
+#title{
+    width:900px;
+    height:60px;
+    margin: 0 auto;
+}
+#title #main{
+    width:160px;
+    height:40px;
+    padding:10px 20px;
+    background:rgba(230,90,55,1);
+    font-size:29px;
+    display:inline-block;
+    float:left;
+    color:black;
+    font-family:'Brush Script MT',Ravie,Arial;
+    text-decoration:none;
+}
+
+#title #links{
+    width:300px;
+    height:60px;
+    margin: 0 7px;
+    color:lightgray;
+    float:right;
+}
+ul li{
+    width:90px;
+    height:60px;
+    list-style:none;
+    display:inline-block;
+}
+#links a{
+    margin: 15px 6px;
+    display:inline-block;
+    text-decoration:none;
+    padding: 6px 2px;
+    color:white;
+}
+
+#links li:hover{
+    background:rgba(230,90,55,1);
+    font-weight:bold;
+}
+
+
+
+
+
+#pic{
+    height:390px;
+    width:100%;
+    background:lightgray;
+}
+.content{
+    width:900px;
+    margin:  0px auto;
+}
+
+
+
+
+
+#blog{
+    height:1060px;
+    width: 890px;
+    margin:  auto;
+    padding: 0 20px;
+
+}
+#blog-head{
+    height:40px;
+    width:100%;
+    margin: 0 5px;
+    padding: 10px 0;
+    line-height:10px;
+    font-size:20px;
+    border-bottom: 2px solid red;
+}
+
+#blog-content{
+
+}
+.item{
+    height:150px;
+}
+.date{
+    font-size:20px;
+    height:30px;
+    line-height:30px;
+    width:100px;
+    margin-top:10px;
+    margin-left:10px;
+    background:rgba(230,90,55,0.5);
+    border-bottom: 3px solid rgba(230,90,55,1);
+    display:inline-block;
+    float:left;
+}
+.paper{
+    height:110px;
+    width:800px;
+    line-height: 25px;
+    margin: 20px 0;
+    display:inline-block;
+    float:right;
+    font-famliy:'微软雅黑' 'Courier New' Arial;
+    font-size:15px;
+}
+
+
+
+#foot-content{
+    width:900px;
+    margin: 0 auto;
+    color:lightgray;
+    padding: 0 20px;
+    line-height:60px;
+}
+span.foot-desc{
+    margin: 0 10px;
+}
